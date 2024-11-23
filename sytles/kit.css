@@ -1,0 +1,11 @@
+.card {
+    width: 25rem;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px #aaa;
+    position: absolute; 
+    top: 5%; 
+    left: 2%; 
+    padding: 2rem 2.5rem;
+    background: rgba(255, 255, 255, 0.5);
+  }
