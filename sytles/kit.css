@@ -1,11 +1,34 @@
 .card {
-    width: 25rem;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    box-shadow: 5px 5px 20px #aaa;
-    position: absolute; 
-    top: 5%; 
-    left: 2%; 
-    padding: 2rem 2.5rem;
-    background: rgba(255, 255, 255, 0.5);
+  width: 25rem;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px #aaa;
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  padding: 2rem 2.5rem;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.emoji {
+  position: absolute; /* 定位 绝对定位 */
+  font-size: 18px; /* 字体大小 */
+  animation: rise 1.2s ease forwards; /* 动画 1.2秒 淡出淡入 保持最后关键帧 */
+  opacity: 1; /* 透明度 不透明 */
+  pointer-events: none; /* 鼠标事件 不可用 */
+}
+
+@keyframes rise { /* 上升动画 */
+  0% {
+    transform: translateY(0); /* 位移 */
+    opacity: 1; /* 透明度 */
   }
+  20% {
+    transform: translateY(-1rem); /* Y轴上升1rem */
+    opacity: 0.8; /* 透明度 0.8 */
+  }
+  100% {
+    transform: translateY(-7rem); /* Y轴上升7rem */
+    opacity: 0; /* 透明度 0 */
+  }
+}
