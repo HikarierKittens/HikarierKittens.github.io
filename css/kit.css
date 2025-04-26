@@ -1,4 +1,4 @@
-.card {
+.frosted-glass-card {
   width: 25rem;
   border: 1px solid #ffffff;
   border-radius: 5px;
@@ -8,6 +8,7 @@
   left: 2%;
   padding: 2rem 2.5rem;
   background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(3px);
 }
 
 .emoji {
