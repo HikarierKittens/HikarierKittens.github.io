@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,a2 as r}from"./chunks/framework.D66Xq0Kv.js";const u=JSON.parse('{"title":"关于本wiki","description":"","frontmatter":{},"headers":[],"relativePath":"about.md","filePath":"about.md"}'),l={name:"about.md"};function n(o,i,s,d,h,k){return e(),t("div",null,[...i[0]||(i[0]=[r("",8)])])}const _=a(l,[["render",n]]);export{u as __pageData,_ as default};
