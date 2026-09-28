@@ -32,10 +32,10 @@ npm run docs:preview
 ```sh
 git init
 git branch -M main
-git add .
+git add . #日后更新
 git commit -m "Prepare Hikariers Wiki for GitHub Pages"
 git remote add origin https://github.com/YOUR_USERNAME/Hikariers_wiki.git
-git push -u origin main
+git push -u origin main #日后更新
 ```
 
 推送时需要你自己的 GitHub 登录凭据。也可以用 GitHub Desktop 发布此目录，但请确保默认分支是 `main`。
