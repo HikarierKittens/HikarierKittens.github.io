@@ -14,10 +14,16 @@
 - 性格：混合核心
 - 访问其他数据请前往 [公共数据库](/data_public/)
 
+## 其他链接访问
+- [Bilibili_Hikarier.Kittens] (https://space.bilibili.com/609706823)
+- [猫窝] (https://qm.qq.com/q/e06vG4c2PY)
 ## 技术基础
 
 本站基于 [VitePress](https://vitepress.dev/zh/) 构建，支持 Markdown 文档、本地全文搜索、深浅色主题及移动端阅读。
 
 ## 参与维护
 - Hikarier.Kittens
+- Sharkie
+- 阿蛇
+- 一只雪花
 - #好友位招租ing...
