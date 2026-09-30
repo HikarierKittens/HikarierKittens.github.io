@@ -30,6 +30,7 @@ export default defineConfig({
 			{ text: '杂项故事与设定', link: '/data_public/杂项故事.md' },
 			{ text: '编年史', link: '/data_public/编年史.md' },
 			{ text: '喵星系天体系统', link: '/data_public/Kittens_System.md' },
+			{ text: '干员属性', link: '/data_public/干员属性.md' },
 
           ]
         }

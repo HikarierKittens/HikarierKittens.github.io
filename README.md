@@ -33,7 +33,7 @@ npm run docs:preview
 git init
 git branch -M main
 git add . #日后更新
-git commit -m "Prepare Hikariers Wiki for GitHub Pages"
+git commit -m "Prepare Hikariers Wiki for GitHub Pages" #日后更新
 git remote add origin https://github.com/YOUR_USERNAME/Hikariers_wiki.git
 git push -u origin main #日后更新
 ```
