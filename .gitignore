@@ -8,3 +8,6 @@ docs/.vitepress/dist/
 .DS_Store
 Thumbs.db
 *.log
+
+# Local-only GitHub publishing script
+/github_update.ps1
