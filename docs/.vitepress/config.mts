@@ -31,6 +31,7 @@ export default defineConfig({
 			{ text: '编年史', link: '/data_public/编年史.md' },
 			{ text: '喵星系天体系统', link: '/data_public/Kittens_System.md' },
 			{ text: '干员属性', link: '/data_public/干员属性.md' },
+			{ text: '奇观建筑', link: '/data_public/奇观建筑.md' },
 
           ]
         }
@@ -38,8 +39,11 @@ export default defineConfig({
       '/data_private/': [
         {
           text: '喵星内部数据库',
-          items: [{ text: '注意事项', link: '/data_private/' },
+          items: [
+		{ text: '注意事项', link: '/data_private/' },
 		{ text: '历代神明日志', link: '/data_private/历代神明日志.md' },
+		{ text: '米拉星系', link: '/data_private/米拉星系.md' },
+
 		  ]
 		  
         }
